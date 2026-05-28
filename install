@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -xe
+
+cargo build --release
+sudo mv ./target/release/valuta-rs /usr/local/bin/
